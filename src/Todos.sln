@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todos.Core", "Todos.Core\Todos.Core.csproj", "{376DD6B0-5C1C-47FB-B399-89627FA056A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todos.Core", "Todos.Core\Todos.Core.csproj", "{376DD6B0-5C1C-47FB-B399-89627FA056A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todos.Core.Tests", "Todos.Core.Tests\Todos.Core.Tests.csproj", "{11612966-78B1-4D78-BF76-6B239D819D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todos.Core.Tests", "Todos.Core.Tests\Todos.Core.Tests.csproj", "{11612966-78B1-4D78-BF76-6B239D819D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todos.Infrastructure", "Todos.Infrastructure\Todos.Infrastructure.csproj", "{900D996B-696C-4671-B2F3-B3BA81DBCC09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todos.Infrastructure", "Todos.Infrastructure\Todos.Infrastructure.csproj", "{900D996B-696C-4671-B2F3-B3BA81DBCC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todos.UI", "Todos.UI\Todos.UI.csproj", "{366019AF-B8CE-4F42-9F96-76C4E1197977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todos.UI", "Todos.UI\Todos.UI.csproj", "{366019AF-B8CE-4F42-9F96-76C4E1197977}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{376DD6B0-5C1C-47FB-B399-89627FA056A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +69,11 @@ Global
 		{366019AF-B8CE-4F42-9F96-76C4E1197977}.Release|x64.Build.0 = Release|Any CPU
 		{366019AF-B8CE-4F42-9F96-76C4E1197977}.Release|x86.ActiveCfg = Release|Any CPU
 		{366019AF-B8CE-4F42-9F96-76C4E1197977}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {305E21E7-1258-4FC7-9615-6E258ABEB665}
 	EndGlobalSection
 EndGlobal
